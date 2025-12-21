@@ -1,0 +1,50 @@
+Unreal Engine project files to ignore
+
+Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+Mac
+.DS_Store
+
+Backup files
+*.suo
+*.user
+*.userprefs
+*.log
+*.tlog
+
+Compiled source
+*.dll
+*.exe
+*.pdb
+*.lib
+*.app
+*.dylib
+*.so
+
+Unreal auto-generated files
+*.generated.h
+*.generated.cpp
+
+Cache
+DerivedDataCache/
+Intermediate/
+Saved/
+
+Ignore local config (optional)
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+Plugins that generate build artifacts
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
